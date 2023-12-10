@@ -1,0 +1,24 @@
+@media (min-width:740px) and (max-width:1023px) {
+    .history-wapper{
+        padding: 0;
+        margin: 0;
+    }
+    .history-title{
+        padding-left: 20px;
+    }
+    .history-list{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .wapper-list-product{
+        height: 100px;
+    }
+    .history-list-item__br-imgs {
+        width: calc(100%/12*2);
+    }
+    .history-list-item__img{
+        padding-top: 80%;
+    }
+}
+@media (max-width:739px) {
+}

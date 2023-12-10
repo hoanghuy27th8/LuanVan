@@ -1,0 +1,110 @@
+.content-main__top{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.content-main__back{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    background-color: #1e37be;
+    font-weight: 600;
+    color: #fff;
+}
+.content-main__back:hover{
+    background-color: #fff;
+    color: #1e37be;
+    border: 2px solid #1e37be;
+    cursor: pointer;
+}
+.content-main__orderID {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+.content-main__orderID::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -5px;
+    width: 2px;
+    height: 20px;
+    background-color: #000;
+}
+.content-main__status {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content-main__main{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.content-main__address{
+    padding: 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.content-main__title{
+    text-decoration: underline;
+}
+.content-main__nameCustormer{
+    font-size: 16px;
+    font-weight: 600;
+}
+.content-main__phoneNumber,
+.content-main__detailAddress{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.content-main__listProduct{
+    margin: 10px 0;
+    padding: 5px;
+}
+.content-main__item{
+    padding: 5px 0;
+}
+.content-main__imgProduct{
+    padding-top: 100%;
+    background-position: center;
+    background-size: contain;
+}
+.content-main__itemRight{
+    margin-left: 10px;
+}
+.product-name{
+    font-size: 18px;
+}
+.product-quantity{
+    font-size: 16px;
+    font-weight: 600;
+}
+.content-main__bottom{
+    padding: 5px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+.content-main__smQuantity,
+.content-main__sumPrice,
+.content-main__typePay {
+    font-size: 18px;
+    font-weight: 600;
+    width: 40%;
+}
+.content-main__smQuantity span{
+    color: #CC6633;
+}
+.content-main__sumPrice span{
+    color: red;
+}
+.content-main__typePay span{
+    font-weight: 500;
+}

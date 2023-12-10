@@ -1,0 +1,197 @@
+.category-wapper{
+    margin: 0 153px;
+}
+.category-top{
+    display: flex;
+    margin: 20px 0 0 10px;
+}
+.category-top-name{
+    font-size: 20px;
+}
+.category-top-name:first-child{
+    margin-right: 5px;
+}
+.category-top-name:last-child{
+    margin-left: 5px;
+    color: #1E73BE;
+    font-weight: 600;
+}
+.category-container{
+    padding: 10px;
+    display: flex;
+    margin: 0 -5px;
+    flex-wrap: wrap;
+}
+.category-left{
+    padding: 0 5px;
+    width:  calc(100%/12*2);
+}
+.filter-list{
+    padding: 10px;
+}
+.filter-item{
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.filter-item:last-child{
+    margin-bottom: 0;
+}
+.filter-item__title{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    background-color: #1E73BE;
+    padding: 10px 5px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.filter-item__name{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+.filter-item__link {
+    border-bottom: 1px solid #ddd;
+}
+.filter-item__link a{
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    color: #000;
+}
+.filter-item__link:last-child{
+    border: none;
+}
+.filter-item__link a:hover{
+    background-color: #1E73BE;
+    color: #fff;
+    text-decoration: none;
+}
+.active-filter{
+    background-color: #1E73BE;
+    color: #fff !important;
+}
+.active-filter2 a{
+    background-color: #1E73BE;
+    color: #fff !important;
+}
+.filter-item__link:first-child a:hover,
+.filter-item__link:first-child .active-filter,
+.filter-item__link:first-child.active-filter2{
+    border-top: 1px solid #fff;
+}
+.filter-item__link:last-child a:hover,
+.filter-item__link:last-child .active-filter,
+.filter-item__link:last-child.active-filter2 a {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* CSS cho sản phẩm */
+.category-right{
+    padding: 5px 5px 0;
+    width: calc(100%/12*10);
+}
+.category-product__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.category-product__item{
+    width: 20%;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+.category-product__item-link{
+    display: block;
+    text-decoration: none;
+    color: unset;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.category-product__item-link:hover{
+    text-decoration: none;
+    top: -1px;
+    position: relative;
+}
+.category-product__item-img{
+    padding-top: 100%;
+    background-size: contain;
+    background-position: center;
+}
+.category-product__item-info{
+    margin: 5px 0;
+}
+.category-product__item-name{
+    margin: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 14px;
+}
+.category-product__item-content{
+    font-size: 11px;
+    font-weight: 500;
+    color: #666;
+    margin: 5px 0;
+}
+.category-product__item-content-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.category-product__item-price{
+    width: 100%;
+    margin-top: 10px;
+}
+.category-product__item-price-top{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+.category-product__item-price-top-old {
+    margin: 0;
+    margin-right: 7px;
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #222;
+}
+.category-product__item-price-top-saleoff {
+    margin: 0 0;
+    font-size: 13px;
+    padding: 5px;
+    background-color: #d00012;
+    color: #fff;
+    transform: translateY(-25%);
+    border-radius: 5px;
+}
+.category-product__item-price-bottom{
+    width: 100%;
+    text-align: center;
+}
+.category-product__item-price-new{
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1e73be;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 16px;
+}
+.category-product__item-price-new:hover{
+    opacity: 0.8;
+}
+
+/* CSS Pagination */
+.category-product__pagination{
+    margin: 10px 0 0;
+}
+.pagination{
+    justify-content: center;
+}

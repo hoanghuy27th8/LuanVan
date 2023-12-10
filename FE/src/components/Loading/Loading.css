@@ -1,0 +1,24 @@
+.loading-icon {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-spinner {
+    font-size: 50px; 
+    animation: spin 1s linear infinite; 
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        color: red;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        color: aqua;
+    }
+}

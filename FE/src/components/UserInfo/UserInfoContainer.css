@@ -1,0 +1,37 @@
+.userInfo-wapper{
+    margin: 0 153px;
+    padding: 20px 0;
+}
+.userInfor-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.userInfo-container{
+    margin: 0 25px;
+    display: flex;
+}
+.userInfo-nav{
+    width: calc(100% / 12 *2);
+    padding: 0 5px;
+}
+
+.userInfo-nav-item{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.userInfo-nav-item:first-child{
+    margin-top: 10px;
+}
+.userInfo-content{
+    padding: 0 5px;
+    width: calc(100% / 12 *10);
+}
+.active{
+    background-color: #1E73BE;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}

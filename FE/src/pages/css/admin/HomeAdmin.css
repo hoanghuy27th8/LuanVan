@@ -1,0 +1,155 @@
+.content-home-top{
+    padding: 20px 70px 20px;
+    margin-top: 20px;
+}
+.container-right{
+}
+
+.content-top__list{
+    display: flex;
+    margin: 0 -5px;
+    justify-content: space-between;
+}
+.content-top__item{
+    padding: 0 5px;
+    width: 25%;
+    margin: 0 5px;
+    padding: 10px 5px;
+    display: flex;
+    background-color: #ddd;
+}
+.content-top__item:nth-child(1){
+    background-color: #FFCC00;
+    color: #fff;
+}
+.content-top__item:nth-child(2){
+    background-color: #33CC00;
+    color: #fff;
+}
+.content-top__item:nth-child(3){
+    background-color: #0066FF;
+    color: #fff;
+}
+.content-top__item:nth-child(4){
+    background-color: #FF3366;
+    color: #fff;
+}
+.content-top__icon{
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.content-top__detail{
+    padding: 10px;
+    width: 100%;
+}
+.content-top__title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.content-top__value {
+    margin: 0;
+    font-size: 18px;
+}
+.content-home-main{
+    border-top: 1px solid #ddd;
+    padding: 10px 10px 0;
+}
+.content-main__title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.content-main__product{
+    height: 500px;
+    overflow-y: scroll;
+}
+.content-main__table{
+    border-collapse: collapse;
+    height: 500px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.table-title{
+    position: sticky;
+    z-index: 1;
+    top: -2px;
+    padding: 5px 0;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-weight: 600;
+}
+.table-contetn__item{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.table-content{
+    font-size: 15px;
+}
+.table-content__img{
+    margin-right: 10px;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.content-home-main{
+    padding: 20px 0;
+    margin: 0 5px;
+}
+.content-home-main-nav{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.content-home-main-nav__title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.btn-nav-item{
+    margin-right: 10px;
+}
+
+/* Form nhap hang */
+.form-import{
+    margin: 20px 0 10px;
+}
+.form-import-content{
+    margin-top: 10px;
+    padding: 20px 25px 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.content-title,
+.formImport label{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.content-body,
+.formImport input{
+    font-size: 18px;
+    margin: 0 5px 10px;
+}
+.formImport input,
+.formImport select{
+    width: 25%;
+}
+.formImport div:nth-child(3) input{
+    margin-left: 90px;
+}
+.formImport div:nth-child(2) input{
+    margin-left: 36px;
+}
+.formImport select{
+    margin-left: 46px;
+    height: 30px;
+}
+ 

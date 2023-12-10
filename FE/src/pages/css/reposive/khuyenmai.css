@@ -1,0 +1,62 @@
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .products-promotion{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .products-promotion__lable,
+    .products-promotion__lable-link{
+        font-size: 16px;
+    }
+    .products-promotion__list_row{
+        margin: 0 -5px;
+    }
+    .products-promotion__item-col{
+        padding: 0 5px;
+        width: calc(100%/12*4);
+    }
+}
+
+@media (max-width: 739px) {
+    .products-promotion{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .products-promotion__lable{
+        position: relative;
+    }
+    .products-promotion__lable-link{
+        position: absolute;
+        top: 0%;
+        right: 0;
+    }
+    .products-promotion__lable,
+    .products-promotion__lable-link,
+    .products-promotion__lable-icon{
+        font-size: 13px;
+    }
+    .products-promotion__list_row{
+        margin: 0 -5px;
+    }
+    .products-promotion__item-col{
+        padding: 0 5px;
+        width: calc(100%/12*6);
+    }
+    .products-promotion__item-name{
+        font-size: 13px;
+    }
+    .products-promotion__item-brief{
+        font-size: 11px;
+    }
+    .old-price{
+        font-size: 13px;
+    }
+    .price-saleoff{
+        font-size: 12px;
+        padding: 2.5px;
+    }
+    .new-price{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,76 @@
+.user-admin__list {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content-main__title {
+    padding-bottom: 10px;
+}
+
+.user-admin__table,
+.user-user__table {
+    display: block;
+    height: 200px;
+    padding: 10px;
+    overflow: scroll;
+}
+.user-user__table{
+    min-height: 500px;
+}
+.user-admin__table::-webkit-scrollbar,
+.user-user__table::-webkit-scrollbar{
+    width: 5px;
+}
+.user-admin__table tbody,
+.user-user__table tbody{
+    background-color: #fff;
+}
+.user-admin__table thead,
+.user-user__table thead{
+    position: sticky;
+    top: 0;
+    background-color: #1E73BE;
+    color: #fff;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.user-user__list{
+    margin: 25px 0 25px;
+}
+
+.content-table__title{
+    padding: 10px 5px;
+    font-size: 17px;
+}
+.content-table__value{
+    border-bottom: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.radio-selecter{
+    width: auto;
+}
+
+.btn-submit-formAddUser{
+    margin-top: 25px;
+    width: 50%;
+    padding: 5px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1E73BE;
+    border-color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-submit-formAddUser:hover{
+    background-color: #fff;
+    color: #1E73BE;
+    border-color: #1E73BE;
+    cursor: pointer;
+}

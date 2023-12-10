@@ -1,0 +1,21 @@
+nhu_cau:
+    1. Văn phòng
+    2. Gaming
+    3. Kỹ thuật
+hieu_nang
+    0. có
+    1. không
+gia
+    1. Thấp
+    2. Trung bình
+    3. Cao
+goi_y
+    1. Văn phòng giá rẻ
+    2. Văn phòng tầm trung
+    3. Văn phòng cao cấp
+    4. Gaming giá rẻ
+    5. Gaming tầm trung
+    6. Gaming cao cấp
+    7. Kỹ thuật giá rẻ
+    8. Kỹ thuật tầm trung
+    9. Kỹ thuật cao cấp

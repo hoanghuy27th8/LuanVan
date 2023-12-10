@@ -1,0 +1,133 @@
+.history-wapper{
+    margin: 0 153px;
+}
+
+.history-list{
+    margin: 0px 0 60px;
+    padding: 20px;
+    height: 700px;
+    overflow: scroll;
+}
+.history-list::-webkit-scrollbar{
+    width: 5px;
+}
+.history-title{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+}
+.history-title::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 2px);
+    height: 1px;
+    width: 178px;
+    background-color: #1E73BE;
+}
+.history-list-item:hover{
+    text-decoration: none;
+    color: #000;
+}
+.history-list-item{
+    color: #000;
+    display: block;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.history-list-item:hover{
+    position: relative;
+    top: -1px;
+}
+.history-list-item__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history-list-item__top p{
+    margin-bottom: 0;
+}
+.history-list-item__idDonHang,
+.history-list-item__status{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.history-list-item__status{
+    color: #33CC00;
+}
+.history-list-item__status--proccess{
+    color: #1E73BE;
+}
+.history-list-item__mid{
+    margin: 10px 0;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+.history-list-item__br-imgs{
+    width: calc(100%/12*1);
+}
+.history-list-item__img{
+    padding-top: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.history-list-item__info{
+    margin-left: 15px;
+    width: calc(100%/12*11);
+}
+.history-list-item__name{
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+}
+.history-list-item__quantity{
+    font-size: 14px;
+    color: #8f8f8f;
+}
+.history-list-item__price{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.history-list-item__price span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF3333;
+}
+.history-list-item__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history-list-item__date-received{
+    font-size: 14px;
+    color: #9C9C9C;
+    margin-bottom: 0;
+}
+.history-list-item__date-received span{
+    font-weight: 600;
+}
+.history-list-item__link{
+    display: block;
+    padding: 10px 25px;
+    background-color: #1E73BE;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.history-list-item__link:hover{
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #1E73BE;
+    background-color: #fff;
+}

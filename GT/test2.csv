@@ -1,0 +1,11 @@
+weather,parents,money,decision
+1,1,1,cinema
+1,0,1,tennis
+2,1,1,cinema
+3,1,0,cinema
+3,0,1,stay_in
+3,1,0,cinema
+2,0,0,cinema
+2,0,1,shopping
+2,1,1,cinema
+1,0,1,tennis

@@ -1,0 +1,26 @@
+.search-wapper{
+    margin: 0 153px;
+}
+.search-content-top{
+    display: flex;
+    justify-content: space-between;
+}
+h2.search-title, .results {
+    margin: 15px 0 5px;
+    font-size: 23px;
+}
+.results span, 
+h2.search-title span {
+    font-weight: 600;
+}
+
+.img-wapper-notfind{
+    text-align: center;
+    margin: 20px 0 10px;
+    padding-bottom: 40px;
+}
+
+.img-notfindproduct{
+    width: 40%;
+    margin: 0 auto;
+}

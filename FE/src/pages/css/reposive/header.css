@@ -1,0 +1,256 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header-wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-main {
+        margin: 0;
+        width: 100%;
+        height: 120px;
+        justify-content: space-around;
+    }
+
+    .herder-top {
+        font-size: 12px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .header-main-nav-list {
+        display: none;
+    }
+
+    .header-logo {
+        text-align: center;
+        margin: 0;
+    }
+
+    .header-logo img {
+        margin: 0 auto;
+        width: 76%;
+    }
+
+    .header-bottom {
+        display: none;
+    }
+
+    .header-tb-left {
+        padding: 15px 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .header-tb-right {
+        padding: 15px;
+        font-size: 25px;
+    }
+
+    .header-tb-right__icon {
+        display: block;
+        padding: 20px 20px;
+        border-radius: 50%;
+        border: 2px solid #1E73BE;
+    }
+
+    .header-tb-left__model {
+        display: none;
+        margin: 5px 0;
+        width: 260px;
+        background-color: #f4f4f4;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+        padding: 25px 15px;
+        box-shadow: 0 1px 1px 1px #ccc;
+        animation: slideIn 0.5s ease-in-out forwards;
+        transition: transform 1s ease-in-out;
+    }
+
+    .header-bottom-list {
+        display: block;
+    }
+
+    .header-bottom-item {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+
+    .header-bottom-item-link {
+        font-size: 13px;
+        color: #1E73BE;
+        border-bottom: 1px solid #ddd;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .bars-icon__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        padding: 2px;
+        background-color: #3f7fb7;
+        cursor: pointer;
+    }
+    
+    .header-account-item:hover .header-account-dropdown-list{
+        top: unset;
+        width: 100%;
+        right: 0;
+        left: 50%;
+    }
+    .header-account-dropdown-item__link{
+        padding: 22px 15px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 739px) {
+    .herder-top-content {
+        font-size: 13px;
+    }
+
+    .header-bottom {
+        display: none;
+    }
+
+    .header-wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-main {
+        margin: 0;
+    }
+
+    .header-tb-left__model {
+        display: none;
+    }
+
+    .header-main-nav-list {
+        display: none;
+    }
+
+    .header-logo {
+        margin: 0;
+    }
+
+    .header-logo img {
+        width: 76%;
+        margin: 0 auto;
+    }
+
+    .header-tb-left {
+        padding: 15px 20px;
+        cursor: pointer;
+
+    }
+
+    .header-mb-right {
+        margin-right: 10px;
+        padding: 10px;
+        border: 2px solid #1E73BE;
+        border-radius: 50%;
+    }
+
+    .header-mb-left__model {
+        display: none;
+        width: 260px;
+        background-color: #f4f4f4;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 10%;
+        z-index: 1;
+        padding: 25px 15px;
+        box-shadow: 0 1px 1px 1px #ccc;
+        animation: slideIn 0.5s ease-in-out forwards;
+        transition: transform 1s ease-in-out;
+    }
+
+    .header-bottom-list {
+        display: block;
+    }
+
+    .header-bottom-item {
+        padding: 15px 0;
+        font-size: 13px;
+    }
+
+    .header-bottom-item-link {
+        font-size: 13px;
+        color: #1E73BE;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .header-mb-left__close {
+        width: 153px;
+        height: 100%;
+        padding: 20px;
+        background-color: #cccccc5f;
+        position: absolute;
+        right: -60%;
+        text-align: right;
+        font-size: 26px;
+        top: 0;
+        z-index: 2;
+        animation: slideOut 1s ease-in-out forwards;
+        transition: transform 1s ease-out;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slideOut {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-100%);
+        }
+    }
+
+    .bars-icon__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        padding: 6px;
+        background-color: #f30f0b;
+        cursor: pointer;
+
+    }
+
+    .header-account-item {
+        position: fixed;
+        bottom: 0%;
+        left: 0;
+        right: 0;
+        padding: 15px 0;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+}

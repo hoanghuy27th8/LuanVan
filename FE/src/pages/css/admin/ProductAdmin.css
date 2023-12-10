@@ -1,0 +1,164 @@
+/* Top */
+.content-main {
+    padding: 30px 10px 30px;
+    background-color: rgb(252, 252, 252);
+}
+
+.container-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.content-main__form {
+    box-shadow: 0 0 5px #ccc;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.content-main__form form {
+    padding: 15px;
+}
+
+.content-main__form form div {
+    margin: 5px 0;
+}
+
+.content-main__form form label {
+    font-size: 16px;
+    font-weight: 600;
+    width: 30%;
+}
+
+.content-main__form form div:nth-child(11) input {
+    border: none;
+    margin-left: -15px;
+}
+
+.content-main__form form input,
+.content-main__form form textarea,
+.content-main__form form select {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 5px 12px;
+    font-size: 15px;
+    width: 70%;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+.content-main__form form input:focus,
+.content-main__form form textarea:focus .content-main__form form select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.content-main__form form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 0;
+    min-height: 120px;
+}
+
+.content-main__form form select {
+    font-size: 16px;
+}
+
+.btn-submit-form {
+    width: 70%;
+    margin: 15px auto 0;
+    padding: 12px 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #1E73BE;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-submit-form:hover {
+    background-color: #fff;
+    color: #1E73BE;
+    border-color: #1E73BE;
+}
+
+
+
+/* List product */
+.content-main__list-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+.content-main__list-table {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.content-main__list-table::-webkit-scrollbar {
+    width: 5px;
+}
+
+.table-content__name,
+.table-content__manhinh {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.list-anh-post {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    overflow-x: scroll;
+    cursor: pointer;
+}
+
+.list-anh-post::-webkit-scrollbar {
+    height: 5px;
+}
+
+.anh-post-item {
+    width: 25%;
+    margin: 0 5px;
+}
+
+.anh-post-item img {
+    width: 100%;
+}
+
+.checkboxGroup {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.checkboxGroup .checkboxDacTinh {
+    flex: 0 0 30%;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.checkboxDacTinh .checkboxInput {
+    width: 15%;
+}

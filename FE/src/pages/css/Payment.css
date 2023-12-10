@@ -1,0 +1,139 @@
+.pay-wapper{
+    margin: 0 153px;
+}
+.pay-content__info{
+    padding: 30px 20px 15px;
+}
+.pay-content__form{
+    display: flex;
+    margin: 0 -15px;
+}
+.pay-content__form-left {
+    flex: 1;
+    padding: 0 15px;
+    padding: 15px 20px 10px;
+}
+.pay-content__title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+    margin-bottom: 0;
+}
+.form-group label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.form-group input{
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 5px 12px;
+    font-size: 15px;
+}
+.form-group input:focus,
+.form-group textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px #ccc;
+}
+.pay-content-detailInfo{
+    margin-top: 30px;
+}
+.form-group textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 0;
+    min-height: 120px;
+}
+
+.pay-content__form-right {
+    flex: 1;
+    padding: 0 15px;
+}
+.pay-content__form-right-wapper{
+    border: 2px solid #1E73BE;
+    padding: 15px 20px 10px;
+}
+.product-name__title,
+.product-price__title{
+    color: #1E73BE;
+    padding-bottom: 15px;
+    position: relative;
+}
+.product-name__title::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: calc(100% + 94px);
+    background-color: #1E73BE;
+    position: absolute;
+    top: calc(50% + 5px);
+    opacity: 0.5;
+}
+.product-item{
+    border-collapse: separate;
+    border-spacing: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.product__name,
+.product__price{
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.product__price{
+    display: inline-flex;
+}
+.product__price span{
+    margin-left: 5px;
+}
+.pay-total__title,
+.pay-total__price{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+}
+.pay-total__title{
+    color: #1E73BE;
+}
+
+.pay-content__type {
+    margin: 15px 0 0;
+}
+#payment_method-online .payment_method-online__content{
+    display: block;
+}
+.payment_method-online__content,
+.payment_method-offline__content
+{
+    display: none;
+}
+.active-pay-method-contetn{
+    display: block;
+}
+input[type="radio"]{
+    margin-right: 10px;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+.btn-submit__payment{
+    width: 100%;
+    background-color: #1E73BE;
+    color: #fff;
+    text-align: center;
+    padding: 5px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.btn-submit__payment:hover{
+    background-color: #fff;
+    color: #1E73BE;
+    border-color: #1E73BE;
+    cursor: pointer;
+}

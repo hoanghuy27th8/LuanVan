@@ -1,0 +1,55 @@
+.content-form{
+    margin-top: 20px;
+}
+.content-form__title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 10px 0;
+}
+.content-form__add{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.content-form__add div{
+    margin: 5px 0;
+}
+.content-form__add label{
+    font-size: 16px;
+    font-weight: 600;
+    width: 30%;
+}
+.content-form__add input,
+.content-form__add select{
+    width: 70%;
+    padding: 5px 15px;
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.content-form__add input:focus{
+    outline: none;
+    box-shadow: 0 0 5px #ccc;
+}
+.btn-add-khuyen-mai{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 70%;
+    background-color: #1e73be;
+    color: #fff;
+    border-color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn-add-khuyen-mai:hover{
+    background-color: #fff;
+    color: #1e73be;
+    border-color: #1e73be;
+    cursor: pointer;
+}

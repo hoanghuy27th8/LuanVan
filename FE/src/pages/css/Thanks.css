@@ -1,0 +1,39 @@
+.thank-wapper{
+    width: 1519px;
+    height: 697px;
+    background: linear-gradient(to bottom, #1E73BE, #FFFFFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-container{
+    width: 900px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+    text-align: center;
+}
+
+.thank-title{
+    color: #1E73BE;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 25px;
+}
+.thank-status{
+    font-size: 50px;
+    text-align: center;
+    padding: 10px 0 0;
+}
+.thank-icon{
+    width: 150px;
+    height: 150px;
+    margin: 40px auto 0;
+    display: block;
+}
+.thank-btn{
+    padding: 10px 50px;
+    font-size: 18px;
+}

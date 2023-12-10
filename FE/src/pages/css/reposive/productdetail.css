@@ -1,0 +1,104 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+    .produt-wapper{
+        margin: 0;
+        padding: 0 5px;
+    }
+    .productDetail-nav a{
+        font-size: 13px;
+    }
+    .product-detail-nameProduct{
+        font-size: 19px;
+    }
+    .product-detail-main{
+        flex-wrap: wrap;
+    }
+    .product-detail-main-left{
+        width: 100%;
+    }
+    .product-detail-main-mid{
+        width: 100%;
+    }
+    .product-detail-main-right{
+        display: none;
+    }
+    .product-detail-desc-content-title span, 
+    .productSpec-content-title span{
+        font-size: 18px;
+    }
+    .product-detail-content-name{
+        font-size: 25px;
+    }
+    .product-detail-content p{
+        font-size: 15px;
+    }
+    .product-detail-desc{
+        display: block;
+    }
+
+
+    .product-detai-comment-left{
+        width: 100%;
+    }
+    .product-detai-comment-right{
+        display: none;
+    }
+}
+
+@media (max-width: 739px) {
+    .produt-wapper{
+        margin: 0;
+        padding: 0;
+        padding: 5px;
+    }
+    .productDetail-nav a{
+        font-size: 12px;
+    }
+    .product-detail-nameProduct{
+        font-size: 18px;
+    }
+    .product-detail-main{
+        display: block;
+    }
+    .product-detail-main-left,
+    .product-detail-main-mid{
+        width: 100%;
+    }
+    .product-detail-mid-price{
+        font-size: 22px;
+    }
+    .product-detail-mid-old-price h4{
+        font-size: 17px;
+    }
+    .product-detail-mid-status{
+        font-size: 16px;
+    }
+    .product-detail-desc{
+        display: block;
+    }
+    .product-detail-desc-content-title span, 
+    .productSpec-content-title span{
+        font-size: 18px;
+    }
+    .product-detail-content-name{
+        font-size: 25px;
+    }
+    .product-detail-main-right{
+        display: none;
+    }
+    .product-detai-comment{
+        display: block;
+    }
+    .detai-comment-left-title{
+        font-size: 18px;
+    }
+    .detai-comment-item-name{
+        font-size: 14px;
+    }
+    .detai-comment-item-content{
+        font-size: 14px;
+    }
+    .detai-comment-left-btn-more{
+        font-size: 14px;
+        padding: 8px 13px;
+    }
+}

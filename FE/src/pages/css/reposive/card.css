@@ -1,0 +1,61 @@
+@media (min-width:740px) and (max-width: 1023px) {
+   .card-wapper{
+        margin: 0;
+        padding: 0;
+   } 
+   .card-name{
+        font-size: 23px;
+        padding: 0 0 0 20px;
+   }
+   .card-detail{
+        display: block;
+   }
+   .card-detail-left{
+        max-width: 100%;
+   }
+   .card-detail-left-info-name,
+   .card-detail-left_info-price p,
+   .card-detail-left_info-quantity>p{
+        font-size: 14px;
+   }
+   .exit-continune, .exit-update-card{
+        font-size: 14px;
+        padding: 3px 12px;
+   }
+   .card-detail-right-title{
+        font-size: 18px;
+   }
+   .card-detail-right-thanhtoan{
+        font-size: 14px;
+        padding: 8px 13px;
+   }
+}
+@media (max-width: 739px) {
+    .card-wapper{
+        margin: 0;
+        padding: 0;
+    } 
+    .card-name{
+        font-size: 20px;
+    }
+    .card-detail{
+        display: block;
+    }
+    .card-detail-left{
+        max-width: 100%;
+    }
+    .card-detail-left-info-name,
+    .card-detail-left_info-price p,
+    .card-detail-left_info-quantity>p{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .exit-continune, .exit-update-card{
+        font-size: 12px;
+        padding: 3px 12px;
+   }
+   .card-detail-right-thanhtoan{
+        font-size: 12px;
+        padding: 6px 11px;
+    }
+}

@@ -1,0 +1,36 @@
+.content-main{
+    padding: 30px 5px;
+}
+.order-table{
+    display: block;
+    padding: 10px;
+    max-height: 600px;
+    overflow: scroll;
+}
+.order-table thead{
+    position: sticky;
+    top: -10px;
+    background-color: #1e73be;
+    color: #fff;
+    font-weight: 600;
+    z-index: 1;
+}
+.order-table::-webkit-scrollbar{
+    width: 5px;
+}
+.content-table__title{
+    padding: 10px 5px;
+    font-size: 17px;
+}
+.order-table tbody{
+    background-color: #fff;
+}
+.content-table__value{
+    border-bottom: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 5px;
+}
+.select-status{
+    padding: 5px 0;
+    margin-right: 5px;
+}
